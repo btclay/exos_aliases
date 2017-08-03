@@ -2,8 +2,12 @@
 
 ## Ports
 
-`alias port_link_history "show port info detail | include Port:|Link\sState:|Link\sUps:|Link\sDowns:"`
+### Show current link state as well as history for all ports
 
+```
+alias port_link_history "show port info detail | include Port:|Link\sState:|Link\sUps:|Link\sDowns:"
+```
+#### Example output:
 ```
 X440G2-12t-10G4.18 # port_link_history
 Port:	1
