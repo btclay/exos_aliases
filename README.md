@@ -2,7 +2,7 @@
 
 ## Ports
 
-alias port_link_history "show port info detail | include Port:|Link\sState:|Link\sUps:|Link\sDowns:"
+`alias port_link_history "show port info detail | include Port:|Link\sState:|Link\sUps:|Link\sDowns:"`
 
 ```
 X440G2-12t-10G4.18 # port_link_history
