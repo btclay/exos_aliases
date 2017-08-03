@@ -2,7 +2,7 @@
 
 Starting in EXOS 22.3, alias functionality is available. These aliases are per session, but a new auto-executing `exshrc.xsf` file has been defined that allows commands to be executed on login (allowing aliases to be restored).
 
-In order to get these aliases to be persistent across sessions, place the commands in a file name `exshrc.xsf` in the  `/usr/local/cfg/` directory of the switch.
+In order to get these aliases to be persistent across sessions, place the commands in a file named `exshrc.xsf` in the  `/usr/local/cfg/` directory of the switch.
 
 ## Ports
 
