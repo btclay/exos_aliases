@@ -4,6 +4,19 @@ Starting in EXOS 22.3, alias functionality is available. These aliases are per s
 
 In order to get these aliases to be persistent across sessions, place the commands in a file named `exshrc.xsf` in the  `/usr/local/cfg/` directory of the switch.
 
+## General
+
+### Get the current time
+
+```
+alias time "show switch | include Current\sTime:"
+```
+#### Example output:
+```
+sw1-exos.25 # time
+Current Time:     Sat Aug  5 22:31:59 2017
+```
+
 ## Ports
 
 ### Show current link state as well as history for all ports
