@@ -9,12 +9,22 @@ In order to get these aliases to be persistent across sessions, place the comman
 ### Get the current time
 
 ```
-alias time "show switch | include Current\sTime:"
+alias time "show switch | include Current\sTime:|Timezone:|DST:"
 ```
 #### Example output:
 ```
 sw1-exos.25 # time
 Current Time:     Sat Aug  5 22:31:59 2017
+```
+
+### Show system uptime
+```
+alias uptime "show switch | include System\sUpTime:"
+```
+#### Example output:
+```
+sw1-exos.7 # uptime
+System UpTime:    12 days 21 minutes 19 seconds
 ```
 
 ## Ports
