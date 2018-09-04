@@ -1,0 +1,6 @@
+alias port_history "show port info detail | include Port:|Link\sState:|Link\sUps:|Link\sDowns:"
+alias time "show switch | include Current\sTime:|Timezone:|DST"
+alias vim "vi"
+alias watch "run script watch.py"
+alias uptime "show switch | include System\sUpTime:"
+
